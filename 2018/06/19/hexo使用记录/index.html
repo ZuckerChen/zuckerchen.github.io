@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="Zucker&#39;s Blog">
 <meta property="og:description" content="hexo安装必要条件需要先安装这两货：  Node.js Git  如果已经安装好了，仅仅需要通过npm安装hexo：npm install -g hexo-cli 初始化首次安装hexo，运行下面的命令来初始化hexo到目标文件夹.123$ hexo init &amp;lt;folder&amp;gt;$ cd &amp;lt;folder&amp;gt;$ npm install 当初始化完毕，可以看到目录结构像下面这样：">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-06-21T15:07:22.018Z">
+<meta property="og:updated_time" content="2018-06-22T03:31:41.323Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo使用记录">
 <meta name="twitter:description" content="hexo安装必要条件需要先安装这两货：  Node.js Git  如果已经安装好了，仅仅需要通过npm安装hexo：npm install -g hexo-cli 初始化首次安装hexo，运行下面的命令来初始化hexo到目标文件夹.123$ hexo init &amp;lt;folder&amp;gt;$ cd &amp;lt;folder&amp;gt;$ npm install 当初始化完毕，可以看到目录结构像下面这样：">
@@ -365,17 +365,6 @@
 
           
             
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018/06/19/hexo使用记录/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2018/06/19/hexo使用记录/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
           
 
           
@@ -424,8 +413,9 @@
 <ol>
 <li>注册Disqus</li>
 <li>修改_config.yml配置 <code>disqus_shortname: your-disqus-shortname</code></li>
+<li>墙内不可见，准备搭VPS封装Disqus Api，计划中。</li>
 </ol>
-<h3 id="数据统计与分析"><a href="#数据统计与分析" class="headerlink" title="数据统计与分析"></a>数据统计与分析</h3><p>计划中</p>
+<h3 id="数据统计与分析"><a href="#数据统计与分析" class="headerlink" title="数据统计与分析:"></a>数据统计与分析:</h3><p>使用<a href="http://v2.ta.qq.com/" target="_blank" rel="noopener">腾讯分析</a>，登陆腾讯分析获取ID，<br>由于hexo已集成，直接修改配置：<br><code>tencent_analytics: &lt;ID&gt;</code></p>
 <h3 id="搜索服务"><a href="#搜索服务" class="headerlink" title="搜索服务"></a>搜索服务</h3><p>使用<a href="https://www.algolia.com/" target="_blank" rel="noopener">Algolia</a>:</p>
 <ol>
 <li>注册Algolia</li>
@@ -494,12 +484,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="disqus_thread">
-        <noscript>
-          Please enable JavaScript to view the
-          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
-      </div>
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNzUyNS8xNDA1Nw"></div>
     </div>
 
   
@@ -621,7 +606,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo安装"><span class="nav-number">1.</span> <span class="nav-text">hexo安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#必要条件"><span class="nav-number">1.1.</span> <span class="nav-text">必要条件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#初始化"><span class="nav-number">1.2.</span> <span class="nav-text">初始化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo配置"><span class="nav-number">1.3.</span> <span class="nav-text">hexo配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo命令"><span class="nav-number">1.4.</span> <span class="nav-text">hexo命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#主题"><span class="nav-number">1.5.</span> <span class="nav-text">主题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#优化"><span class="nav-number">2.</span> <span class="nav-text">优化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#评论系统"><span class="nav-number">2.1.</span> <span class="nav-text">评论系统</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据统计与分析"><span class="nav-number">2.2.</span> <span class="nav-text">数据统计与分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#搜索服务"><span class="nav-number">2.3.</span> <span class="nav-text">搜索服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分享服务"><span class="nav-number">2.4.</span> <span class="nav-text">分享服务</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo安装"><span class="nav-number">1.</span> <span class="nav-text">hexo安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#必要条件"><span class="nav-number">1.1.</span> <span class="nav-text">必要条件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#初始化"><span class="nav-number">1.2.</span> <span class="nav-text">初始化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo配置"><span class="nav-number">1.3.</span> <span class="nav-text">hexo配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo命令"><span class="nav-number">1.4.</span> <span class="nav-text">hexo命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#主题"><span class="nav-number">1.5.</span> <span class="nav-text">主题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#优化"><span class="nav-number">2.</span> <span class="nav-text">优化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#评论系统"><span class="nav-number">2.1.</span> <span class="nav-text">评论系统</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据统计与分析"><span class="nav-number">2.2.</span> <span class="nav-text">数据统计与分析:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#搜索服务"><span class="nav-number">2.3.</span> <span class="nav-text">搜索服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分享服务"><span class="nav-number">2.4.</span> <span class="nav-text">分享服务</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -793,26 +778,6 @@
 
   
 
-    
-      <script id="dsq-count-scr" src="https://zuckerchen.disqus.com/count.js" async></script>
-    
-
-    
-      <script type="text/javascript">
-        var disqus_config = function () {
-          this.page.url = 'http://zuckerchen.github.io/2018/06/19/hexo使用记录/';
-          this.page.identifier = '2018/06/19/hexo使用记录/';
-          this.page.title = 'hexo使用记录';
-        };
-        var d = document, s = d.createElement('script');
-        s.src = 'https://zuckerchen.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', '' + +new Date());
-        (d.head || d.body).appendChild(s);
-      </script>
-    
-
-  
-
 
 
 
@@ -825,6 +790,21 @@
   
 
 
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
 
 
 
